@@ -7,9 +7,9 @@ const app = express()
 
 app.use(express.json({ extended: true }))
 
-app.use('/api/auth', require('./routes/auth.routes'))
-app.use('/api/link', require('./routes/link.routes'))
-app.use('/t', require('./routes/redirect.routes'))
+app.use('/api/auth', require('./routers/auth.routers'))
+app.use('/api/link', require('./routers/link.routers'))
+app.use('/t', require('./routers/redirect.routes'))
 
 if (process.env.NODE_ENV === 'production') {
   app.use('/', express.static(path.join(__dirname, 'client', 'build')))

@@ -1,6 +1,6 @@
 {
-    "port": 5000,
+    "port": 80,
     "jwtSecret": "vladilen youtube mern",
-    "mongoUri": "mongodb+srv://vladilen:1234qwer@cluster0-kggc2.azure.mongodb.net/app?retryWrites=true&w=majority",
-    "baseUrl": "http://localhost:5000"
+    "mongoUri": "mongodb+srv://medeiva:stupid8764@cluster0.wxcyo.mongodb.net/app?retryWrites=true&w=majority",
+    "baseUrl": "http://todo-list-medeiva.ru/"
   }
